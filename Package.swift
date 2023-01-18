@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "8.0.0")),
-        .package(url: "https://github.com/mongodb/mongo-swift-driver", .upToNextMajor(from: "1.3.1")),
+        .package(url: "https://github.com/Wabi-Studios/mongo-swift-driver", .upToNextMajor(from: "1.3.1")),
         .package(url: "https://github.com/vapor/vapor", .upToNextMajor(from: "4.0.0"))
     ],
     targets: [
